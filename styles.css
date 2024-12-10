@@ -1,0 +1,73 @@
+/* Selectores de reseteo */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mis Selectores */
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #013220 50%, #4b0000 50%);
+}
+
+.post {
+    margin:auto;
+    border-radius: 10px;
+    background-color: white;
+    width: 550px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.post-header {
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 5%;
+}
+
+.post-header-left {
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+    gap: 13%;
+}
+
+.post-header-right {
+    margin-right: -10px;
+}
+
+.post-img img {
+    width: 100%;
+    height: 380px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 5%;
+}
+
+.post-icons-left {
+    margin-left: -10px;
+    display: flex;
+    gap: 13%;
+}
+
+.post-icons-right {
+    margin-right: -10px;
+}
+
+.post-body {
+    margin-left: 18px;
+    margin-right: 15px;
+}
